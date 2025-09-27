@@ -1,0 +1,132 @@
+:root {
+  --couleur-principale: #1007a0;
+  --couleur-secondaire: #f4efe6;
+  --ligne-reparation: #f9c028;
+}
+
+body {
+  background-color: var(--couleur-secondaire);
+  font-family: Arial, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: var(--couleur-principale);
+}
+
+.contenu {
+  margin: 2rem auto;
+  width: 90vw;
+}
+
+.accueil {
+  width: 105vw;
+  margin: 0 0 0 -10vw;
+}
+
+.h1, .h2, h3 {
+  color: var(--couleur-principale);
+  font-weight: 900;
+}
+
+.acces-rapide {
+  margin: 0 auto;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  transform: translateY(-100%);
+  width: 90%;
+}
+
+.acces-rapide:focus-within {
+  opacity: 1;
+  position: relative;
+  transform: translateY(0);
+}
+
+header {
+  font-family: "Four Seasons", Arial, sans-serif;
+  margin: 0 auto 2rem auto;
+  width: 90%;
+}
+
+header div {
+  align-items: center;
+  display: flex;
+}
+
+header img:nth-child(1) {
+  width: clamp(5vw, 2vw + 2rem, 3rem);
+}
+
+header img:nth-child(2) {
+  width: clamp(20vw, 2vw + 2rem, 3rem);
+}
+
+@media (max-width: 600px) {
+  header img:nth-child(2) {
+    width: clamp(50vw, 2vw + 2rem, 3rem);
+  }
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin-right: 1rem;
+}
+
+footer {
+  background-color: var(--couleur-principale);
+  color: #fff;
+  font-size: 1rem;
+  padding: 1rem 0;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.flex {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
+
+.flex img {
+  margin-bottom: 1rem;
+  width: clamp(20vw, 2vw + 2rem, 3rem);
+}
+
+.flex p {
+  margin-left: 1rem;
+}
+
+.center {
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .flex {
+    flex-wrap: wrap;
+  }
+  .flex img {
+    width: 100%;
+  }
+}

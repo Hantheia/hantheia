@@ -1,0 +1,33 @@
+---
+import AccesRapide from "./AccesRapide.astro"
+import EnTete from "./EnTete.astro"
+import PiedDePage from "./PiedDePage.astro"
+import "./global.css";
+
+type Props = {
+  title: string
+}
+
+const { title } = Astro.props
+---
+
+<!DOCTYPE html>
+<html lang="fr" dir="ltr" data-fr-scheme="light">
+  <head>
+    <meta charset="UTF-8">
+    <title>{title}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/hantheia/manifest.webmanifest" rel="manifest">
+    <link rel="icon" href="/hantheia/favicon.png" type="image/x-icon">
+  </head>
+  <body>
+    <AccesRapide />
+    <EnTete />
+    <main id="content">
+      <div class="contenu">
+        <slot />
+      </div>
+    </main>
+    <PiedDePage />
+  </body>
+</html>
