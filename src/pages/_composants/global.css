@@ -8,13 +8,26 @@ body {
   background-color: var(--couleur-secondaire);
   font-family: Arial, sans-serif;
   font-size: 1.2rem;
-  line-height: 1.5rem;
+  line-height: 1.8;
   margin: 0;
   padding: 0;
 }
 
 a {
   color: var(--couleur-principale);
+}
+
+p {
+  margin-bottom: 1.5rem;
+}
+
+ul, ol {
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
 }
 
 .contenu {
@@ -89,6 +102,10 @@ footer {
   color: #fff;
   font-size: 1rem;
   padding: 1rem 0;
+}
+
+footer li {
+  line-height: 1;
 }
 
 footer ul {
