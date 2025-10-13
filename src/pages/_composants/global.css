@@ -6,7 +6,7 @@
 
 body {
   background-color: var(--couleur-secondaire);
-  font-family: Arial, sans-serif;
+  font-family: Poppins, regular;
   font-size: 1.2rem;
   line-height: 1.8;
   margin: 0;
@@ -61,7 +61,7 @@ li {
 }
 
 header {
-  font-family: "Four Seasons", Arial, sans-serif;
+  font-family: "Poppins", Poppins, medium ;
   margin: 0 auto 2rem auto;
   width: 90%;
 }
