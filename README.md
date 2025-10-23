@@ -19,10 +19,4 @@
 
 ## Todo
 
-- manque la police "Four Seasons Light" sachant que ça a un impact sur l'affichage de la page
-- manque le favicon 48x48 pixels
 - manque les 3 images des réseaux sociaux dans le pied de page
-- manque le contenu de la page accessibilité
-- manque le contenu de la page gestion des cookies
-- réduire en taille le logo
-- il faut expliciter tous les acronymes ou alors les écrire complètement et ajouter entre paranthèse l'acronyme
