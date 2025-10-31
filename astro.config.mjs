@@ -2,10 +2,10 @@
 import { defineConfig } from "astro/config";
 
 export default defineConfig({
-  base: "/hantheia",
+  base: "/",
   devToolbar: {
     enabled: false
   },
-  site: "https://hantheia.github.io",
+  site: "https://hantheia.fr",
   server: { port: 3000 },
 });
