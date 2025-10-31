@@ -2,7 +2,7 @@
 import { defineConfig } from "astro/config";
 
 export default defineConfig({
-  base: "/hantheia",
+  base: "/",
   devToolbar: {
     enabled: false
   },
